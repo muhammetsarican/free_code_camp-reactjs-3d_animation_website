@@ -1,4 +1,13 @@
 function SoundSection() {
+    const handleLearnMore=(e)=>{
+        e.preventDefault();
+        const element= document.querySelector(".display-section");
+        window.scrollTo({
+            top: element?.getBoundingClientRect().bottom,
+            left: 0,
+            behavior: "smooth"
+        })
+    }
     return (
         <div className="sound-section wrapper">
             <div className="body">
@@ -10,7 +19,7 @@ function SoundSection() {
                     </span>
                     <ul className="links">
                         <li><button className="button">Buy</button></li>
-                        <li><a href="" className="link">Learn More</a></li>
+                        <li><a href="" className="link" onClick={(e)=>handleLearnMore(e)}>Learn More</a></li>
                     </ul>
                 </div>
             </div>

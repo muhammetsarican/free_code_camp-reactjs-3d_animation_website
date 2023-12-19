@@ -2,8 +2,8 @@ import iphone from "../assets/images/iphone-14.jpg"
 import holdingIphone from "../assets/images/iphone-hand.png"
 function Jumbotron() {
     const handleLearnMore=(e)=>{
-        e.preventDefault();
         const element=document.querySelector(".sound-section");
+        e.preventDefault();
         window.scrollTo({
             top: element?.getBoundingClientRect().top,
             left: 0,
