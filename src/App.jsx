@@ -4,6 +4,7 @@ import Jumbotron from "./components/Jumbotron";
 import Navbar from "./components/Navbar";
 import SoundSection from "./components/SoundSection";
 import WebgiViewer from "./components/WebgiViewer";
+import Loader from "./components/Loader";
 
 function App() {
   const webgiRef = useRef();
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <div ref={contentRef} id="content">
+        <Loader />
         <Navbar />
         <Jumbotron />
         <SoundSection />
