@@ -5,7 +5,7 @@ I created a website that shows iPhone with 3d animation. I had a lot of fun deve
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/3r97n5B/video5.gif)
+![App Screenshot](https://github.com/muhammetsarican/free_code_camp-reactjs-3d_animation_website/blob/main/src/assets/images/video5.gif)
 
 
 ## Used Technologies
